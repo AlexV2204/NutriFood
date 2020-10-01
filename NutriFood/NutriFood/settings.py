@@ -20,10 +20,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "hju12@l30$(p$)j4ymfxe)f@ram%171fk0y^c(!x3b9^=ta0)4"
+SECRET_KEY = ""
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -77,11 +77,11 @@ WSGI_APPLICATION = "NutriFood.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "nutrifood",
-        "USER": "admin",
-        "PASSWORD": "healthy",
-        "HOST": "127.0.0.1",
-        "PORT": "5432",
+        "NAME": "salade",
+        "USER": "jambon",
+        "PASSWORD": "beurre",
+        "HOST": "LA_FRANCE",
+        "PORT": "0000",
     }
 }
 
